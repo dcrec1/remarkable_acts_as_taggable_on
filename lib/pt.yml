@@ -1,0 +1,7 @@
+pt:
+  remarkable:
+    acts_as_taggable_on: 
+      act_as_taggable_on: 
+        description: "deve ser tagable"
+        expectations: 
+          acts_as_taggable: "{{subject_name}} tivesse uma lista de {{attribute}}"
