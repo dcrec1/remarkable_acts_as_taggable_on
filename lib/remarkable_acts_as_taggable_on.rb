@@ -1,0 +1,2 @@
+module RemarkableActsAsTaggableOn
+end
