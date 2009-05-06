@@ -1,0 +1,7 @@
+en:
+  remarkable:
+    acts_as_taggable_on: 
+      act_as_taggable_on: 
+        description: "should act as taggable"
+        expectations: 
+          acts_as_taggable: "{{subject_name}} act as taggable on {{attribute}}"
