@@ -7,6 +7,6 @@ if RAILS_ENV == "test"
   require 'spec'
   require 'spec/rails'
 
-  Remarkable.include_matchers!(Remarkable::YouNameIt, Spec::Rails::Example::ModelExampleGroup)
+  Remarkable.include_matchers!(Remarkable::Acts::TaggableOn, Spec::Rails::Example::ModelExampleGroup)
 
 end
